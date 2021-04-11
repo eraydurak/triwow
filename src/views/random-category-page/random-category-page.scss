@@ -51,3 +51,38 @@ lottie-player {
   left: 0;
   width: 100%;
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+  section.category {
+    .random {
+      &__down {
+        margin: 40px auto;
+        img {
+        }
+      }
+      &__rotate {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  section.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .random {
+      &__down {
+        img {
+        }
+      }
+      &__rotate {
+        width: 65%;
+      }
+    }
+  }
+}
